@@ -1,0 +1,59 @@
+{
+  "window.autoDetectColorScheme": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "files.associations": {
+    "*.env.*": "dotenv",
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact",
+    "*.sol": "solidity"
+  },
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.parameterHints.enabled": true,
+  "editor.folding": true,
+  "editor.foldingStrategy": "auto",
+  "editor.showFoldingControls": "mouseover",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.rulers": [80, 100],
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "prettier.singleQuote": true,
+  "prettier.semi": false
+}
